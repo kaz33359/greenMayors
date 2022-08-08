@@ -1,0 +1,110 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Jul 2022 15:48:54 at https://beantown.website/html/be/html/index-church3.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://beantown.website/html/be/html/index-church3.html -O1 "D:\Ashwin\Templates\Green_Design_1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:48:56	Error: 	"Internal Server Error" (500) after 2 retries at link https://beantown.website/robots.txt (from primary/primary)
+15:56:45	Warning: 	Retry after error 500 (Internal Server Error) at link https://beantown.website/html/be/html/images/church3-slider-pic1.jpg (from https://beantown.website/html/be/html/index-church3.html)
+16:04:47	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/farm2/css/custom.css
+16:06:55	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/weddingband/css/custom.css
+16:07:16	Warning: 	Retry after error -4 (No data (connection closed)) at link https://beantown.website/html/be/html/demo/corporation3.jpg (from https://beantown.website/html/be/html/index-church3.html)
+16:08:05	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/carparts/css/custom.css
+16:09:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/gsmservice2/css/custom.css
+16:09:58	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/clinic5/css/custom.css
+16:10:06	Warning: 	Retry after error 500 (Internal Server Error) at link https://beantown.website/html/be/html/index-cv2_el.html (from https://beantown.website/html/be/html/index-church3.html)
+16:11:41	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/developer4/css/custom.css
+16:12:42	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/event5/css/custom.css
+16:15:31	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/home2/css/custom.css
+16:16:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/training2/css/custom.css
+16:22:58	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/cityhall/css/custom.css
+16:23:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/steak2/css/custom.css
+16:24:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/fisher/css/custom.css
+16:39:15	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/paintball/css/custom.css
+16:40:30	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/video3/css/custom.css
+16:40:36	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/marathon/css/custom.css
+16:40:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/taxi2/css/custom.css
+16:41:02	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/boxing/css/custom.css
+16:42:32	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/cleaner2/css/custom.css
+16:43:31	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/architect5/css/custom.css
+16:44:04	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/catering2/css/custom.css
+16:45:15	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/sitter2/css/custom.css
+16:45:48	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/psychologist/css/custom.css
+16:46:36	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/pizza4/css/custom.css
+16:48:54	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/barber3/css/custom.css
+16:49:12	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/transport2/css/custom.css
+16:49:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/mechanic4/css/custom.css
+16:49:41	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/yacht/css/custom.css
+16:49:51	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/safari2/css/custom.css
+16:50:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/mountainguide/css/custom.css
+16:51:03	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/resort2/css/custom.css
+16:51:42	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/polyglot/css/custom.css
+16:52:22	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/club2/css/custom.css
+16:52:35	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/adventure2/css/custom.css
+16:52:51	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/product3/css/custom.css
+16:54:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/weddingphotos/css/custom.css
+16:54:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/cosmetics2/css/custom.css
+16:55:03	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/asg2/css/custom.css
+16:55:15	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/beauty4/css/custom.css
+16:55:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/weddingdresses/css/custom.css
+16:55:40	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/spa3/css/custom.css
+16:55:49	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/band3/css/custom.css
+16:56:38	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/healthy/css/custom.css
+16:56:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/diet2/css/custom.css
+16:56:59	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/biker2/css/custom.css
+16:57:23	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/carpenter3/css/custom.css
+16:57:47	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/gunrange/css/custom.css
+16:58:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/car2/css/custom.css
+16:58:35	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/agency3/css/custom.css
+16:59:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/estate2/css/custom.css
+17:01:27	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/navigation/css/custom.css
+17:02:05	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/county/css/custom.css
+17:02:21	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/company3/css/custom.css
+17:02:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/cryptocurrency/css/custom.css
+17:03:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/supplier/css/custom.css
+17:06:07	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/accountant3/css/custom.css
+17:06:34	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/hairdresser/css/custom.css
+17:06:49	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/mechanic3/css/custom.css
+17:07:52	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/bar2/css/custom.css
+17:08:56	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/lawyer3/css/custom.css
+17:09:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/birthday/css/custom.css
+17:10:55	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/winter/css/custom.css
+17:14:13	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/detailing2/css/custom.css
+17:14:33	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/denim/css/custom.css
+17:16:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/marina/css/custom.css
+17:20:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/diet/css/custom.css
+17:20:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/stone/css/custom.css
+17:21:22	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/dentist2/css/custom.css
+17:21:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/furniture2/css/custom.css
+17:21:58	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/detailing/css/custom.css
+17:22:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/active/css/custom.css
+17:22:26	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/shoes/css/custom.css
+17:23:44	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/couturier/images/home_couturier_trailerbox3.jpg
+17:24:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/wallet/css/custom.css
+17:25:02	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/pizza2/css/custom.css
+17:25:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/hifi/css/custom.css
+17:25:30	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/ebook/css/custom.css
+17:25:39	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/lawyer2/css/custom.css
+17:26:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/writer/css/custom.css
+17:27:14	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/barber2/css/custom.css
+17:28:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/minimal/css/custom.css
+17:28:34	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/underwater/css/custom.css
+17:29:15	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/wedding2/css/custom.css
+17:29:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/aquapark/css/custom.css
+17:31:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/hr/css/custom.css
+17:31:35	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/pets/css/custom.css
+17:31:59	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/freelancer/css/custom.css
+17:33:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/toy/css/custom.css
+17:33:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://beantown.website/html/be/html/content/carpenter/css/custom.css
+00:57:13	Error: 	Exit requested by shell or user
+00:57:13	Error: 	"" (-1) at link https://beantown.website/html/be/html/index-lab.html (from https://beantown.website/html/be/html/index-church3.html)
+00:57:13	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 hours 8 minutes 19 seconds : 16248 links scanned, 14990 files written (835642488 bytes overall) [699652438 bytes received at 21266 bytes/sec], 170458285 bytes transferred using HTTP compression in 2530 files, ratio 17%, 9.0 requests per connection
+(4 errors, 91 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]
