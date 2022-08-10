@@ -2359,15 +2359,15 @@ img.scale-with-grid, #Content img {
 	margin-bottom: 10px;
 }
 #contactWrapper input[type="date"], #contactWrapper input[type="email"], #contactWrapper input[type="number"], #contactWrapper input[type="password"], #contactWrapper input[type="search"], #contactWrapper input[type="tel"], #contactWrapper input[type="text"], #contactWrapper input[type="url"], #contactWrapper select, #contactWrapper textarea {
-	padding: 10px;
+	padding: 15px;
 	outline: none;
-	margin: 0;
+	margin: 15px;
 	width: 100%;
 	max-width: 100%;
 	display: block;
-	margin-bottom: 0;
-	font-size: 13px;
-	border-width: 1px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	border-width: 10px;
 	border-style: solid;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
