@@ -119,7 +119,7 @@
 												<textarea placeholder="Message" id="message" name="Message" rows="10" maxlength="6000" required></textarea>
 											</div>
 											<div class="column one">
-												<button class="button-primary" id="submit" type="submit">Send A Message</button>
+												<button class="button-primary" id="send" type="submit" onclick="contact()" name="submit-form" onclick="contact()">Send A Message</button>
 											</div>
 										</form>
 										<div id="success_message" style="display:none">
@@ -223,6 +223,32 @@
 	<script src="assets/js/translate3d.js"></script>
 	<script src="assets/js/scripts.js"></script>
 	<script src="assets/phpmailer/form.js"></script>
+
+
+
+
+
+
+<script>
+    
+        function contact() {
+            let name = document.getElementById("username").value;
+            let email = document.getElementById("email").value;
+            let subject = document.getElementById("subject").value;
+            let message = document.getElementById("message").value;
+
+            let contact = `${name}, ${email}, ${serivce}, ${message}`;
+
+            // alert(contact);
+
+            let url = `https://wa.me/919526977433?text=${contact}`;
+            window.open(url);
+
+
+        }
+</script>
+
+
 </body>
 
 
