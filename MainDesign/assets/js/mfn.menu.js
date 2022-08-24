@@ -30,7 +30,7 @@
 			$( 'li:has(ul)', menu ).addClass( 'submenu' );
 			
 			// append mobile toggle button
-			$( 'li:has(ul)', menu ).append( '<span class="menu-toggle"></span>' );
+			// $( 'li:has(ul)', menu ).append( '<span class="menu-toggle"></span>' );
 			
 			// add '.mfn-megamenu-parent' class
 			menu.children( 'li:has( ul.mfn-megamenu )' ).addClass( 'mfn-megamenu-parent' );	

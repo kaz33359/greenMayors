@@ -364,7 +364,7 @@ h6 {
 		line-height: 19px;
 		letter-spacing: 0px;
 	}
-	#menu>ul>li>a, a.action_button, #overlay-menu ul li a {
+	#menu>ul>li>a, a.action_button, #overlay-menu ul li a{
 		font-size: 13px;
 		letter-spacing: 1px;
 	}
@@ -601,7 +601,11 @@ h6 {
 	height: 212px;
 }
 #Top_bar .menu>li>a {
-	padding: 76px 0;
+	padding-top: 76px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
 }
 .menu-highlight:not(.header-creative) #Top_bar .menu>li>a {
 	margin: 81px 0;
@@ -1976,6 +1980,9 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 #Top_bar .menu>li ul {
 	background-color: #f2f2f2;
 }
+#Top_bar .menu>li ul li{
+	background-color: #f2f2f2;
+}
 #Top_bar .menu>li ul li a {
 	color: #5f5f5f;
 }
@@ -2053,7 +2060,7 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	color: #24ac24;
 }
 #Footer a:hover {
-	color: ;
+	color: #24ac24;
 }
 #Footer h1, #Footer h1 a, #Footer h1 a:hover, #Footer h2, #Footer h2 a, #Footer h2 a:hover, #Footer h3, #Footer h3 a, #Footer h3 a:hover, #Footer h4, #Footer h4 a, #Footer h4 a:hover, #Footer h5, #Footer h5 a, #Footer h5 a:hover, #Footer h6, #Footer h6 a, #Footer h6 a:hover {
 	color: #24ac24;
@@ -2494,7 +2501,7 @@ body.mobile-side-slide {
 	background: rgba(255, 255, 255, .025)
 }
 #Side_slide #menu ul li ul li a {
-	padding-left: 35px
+	padding-left: 35px;
 }
 #Side_slide #menu ul li ul li ul li a {
 	padding-left: 50px
@@ -2728,17 +2735,17 @@ body.mobile-side-slide {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and min-width: 768px and max-width: 959px {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and max-width: 479px {
+@media only screen and (max-width: 479px) {
 	.the-icons.span3 {
 		width: 100%;
 	}

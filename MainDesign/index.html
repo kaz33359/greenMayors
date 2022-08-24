@@ -52,6 +52,101 @@
 	<link rel='stylesheet' href='assets/css/style-demo.css'>
 	<!--Fa Fa Icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+
+nav ul li ul {
+  display: none;
+  margin-top: 20px; }
+  nav ul li ul li {
+    display: block; }
+    nav ul li ul li:hover {
+      background: #24ac24; }
+    nav ul li ul li svg {
+      margin-left: 20px;
+      margin-right: 20px; }
+
+nav li li {
+  background-color: #FEFEFE; }
+
+  .drop-box:hover a
+  {
+color: #24ac24;
+  }
+
+.item {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom: 1px #d7d9dd solid;
+  position: relative;
+text-align: left;
+}
+	.item a
+	{
+		color: white;
+	}
+  .item:hover #item {
+    fill: transparent; }
+.hamburger {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.arrow {
+  width: 0;
+  height: 0;
+  margin-left: 275px;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 9px solid #FEFEFE;
+  position: absolute;
+  top: -9px; }
+
+.fa-chevron-up {
+  margin-left: 5px; }
+
+.marked {
+  background-color: transparent;
+  border-radius: 2px; }
+
+.marked1 {
+  color: #ffffff; }
+
+.rotate {
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+
+.rotate.down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+		/* .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: "Gilda Display", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: transparent;color: #24ac24;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+	</style>
 	</head>
 
 <body class="home page template-slider button-custom layout-full-width if-zoom if-border-hide no-content-padding no-shadows header-split sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders footer-copy-center mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky tr-menu">
@@ -73,9 +168,32 @@
 											<!-- <li> <a href="content/church3/gallery.html"><span>Gallery</span></a> </li> -->
 										</ul>
 										<ul id="menu-main-menu-right" class="menu menu-main menu_right">
-											<li> <a href="services.html"><span>Services</span></a> </li>
+											<li class="menu" id="dropMenu">
+					<div class="drop-box">
+					<a class="drop-text" href="#" style="font-size: 18px;font-family: 'Gilda Display', Helvetica, Arial, sans-serif;">Services<i class="fa fa-chevron-up rotate"></i></a>
+					</div>
+					<ul id="ul">
+						<li class="item"><a href="#">Home</a></li>
+						<li class="item"><a href="#">Messages</a></li>
+						<li class="item"><a href="#">Settings</a></li>
+					</ul>
+				</li>
+											<!-- <li class="dropdown"> <a href=""><span>Services</span></a> 
+											<div class="dropdown-content">
+												
+    <a href="#">IT & Business Consulting</a>
+    <a href="#">Refurbished Computers</a>
+    <a href="#">E-waste Management</a>
+    <a href="#">Resource Management</a>
+    <a href="#">Digital Marketing</a>
+    <a href="#">App Development</a>
+    <a href="#">Software Development</a>
+    <a href="#">ERP & BI Solutions</a>
+    <a href="#">HR Solutions</a>
+  </div>
+  
+</li> -->
 											<li> <a href="contact.html"><span>Contact</span></a> </li>
-											<!-- <li> <a target="_blank" href="https://1.envato.market/9ZxXY"><span><span style="color:#24ac24;">Buy now</span></span></a> </li> -->
 										</ul>
 									</nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a> </div>
 							</div>
@@ -444,6 +562,7 @@
 	<!-- JS -->
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/mfn.menu.js"></script>
+	<script src="assets/js/script.js"></script>
 	<script src="assets/js/jquery.plugins.js"></script>
 	<script src="assets/js/jquery.jplayer.min.js"></script>
 	<script src="assets/js/animations/animations.js"></script>

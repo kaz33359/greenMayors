@@ -1589,7 +1589,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 #Top_bar .menu li ul li {
 	padding: 0;
-	width: 190px;
+	width: 175px;
 	position: relative;
 	font-weight: normal;
 }
@@ -7619,7 +7619,7 @@ html, body {
 
 
 .fa {
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
   width: 60px;
   text-align: center;
