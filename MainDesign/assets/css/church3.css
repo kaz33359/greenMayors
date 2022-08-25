@@ -364,6 +364,15 @@ h6 {
 		line-height: 19px;
 		letter-spacing: 0px;
 	}
+	.drop-box a {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	a.drop-text
+	{
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
 	#menu>ul>li>a, a.action_button, #overlay-menu ul li a{
 		font-size: 13px;
 		letter-spacing: 1px;
