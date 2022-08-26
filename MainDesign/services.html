@@ -45,7 +45,82 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<!--CSS -->
 	<link rel='stylesheet' href='assets/css/structure.css'>
-	<link rel='stylesheet' href='assets/css/church3.css'> </head>
+	<link rel='stylesheet' href='assets/css/church3.css'>
+
+	<style>
+		nav ul li ul {
+  display: none;
+  margin-top: 20px; }
+  nav ul li ul li {
+    display: block; }
+    nav ul li ul li:hover {
+      background: #24ac24; }
+    nav ul li ul li svg {
+      margin-left: 20px;
+      margin-right: 20px; }
+
+nav li li {
+  background-color: #FEFEFE; }
+
+  .drop-box a
+  {
+	font-size: 18px;
+	font-family: 'Gilda Display', Helvetica, Arial, sans-serif;
+color: white;
+  }
+  .drop-box:hover a
+  {
+color: #24ac24;
+  }
+
+.item {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  /* border-bottom: 1px #d7d9dd solid; */
+  position: relative;
+text-align: left;
+}
+	.item a
+	{
+		color: white;
+	}
+  .item:hover #item {
+    fill: transparent; }
+.hamburger {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.arrow {
+  width: 0;
+  height: 0;
+  margin-left: 275px;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 9px solid #FEFEFE;
+  position: absolute;
+  top: -9px; }
+
+.fa-chevron-up {
+  margin-left: 5px; }
+
+.marked {
+  background-color: transparent;
+  border-radius: 2px; }
+
+.marked1 {
+  color: #ffffff; }
+
+.rotate {
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+
+.rotate.down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+	</style>
+ </head>
 
 <body class="page button-custom layout-full-width if-zoom if-border-hide no-content-padding no-shadows header-split sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders footer-copy-center mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky tr-menu">
 	<div id="Wrapper">
@@ -66,7 +141,22 @@
 											<!-- <li> <a href="content/church3/gallery.html"><span>Gallery</span></a> </li> -->
 										</ul>
 										<ul id="menu-main-menu-right" class="menu menu-main menu_right">
-											<li> <a href="services.html"><span>Services</span></a> </li>
+											<li class="menu" id="dropMenu">
+					<div class="drop-box">
+					<a class="drop-text" href="#">Services<i class="fa fa-chevron-up rotate"></i></a>
+					</div>
+					<ul id="ul">
+						<li class="item"><a href="services.html">IT & Business Consulting</a></li>
+						<li class="item"><a href="services.html">Refurbished Computers</a></li>
+						<li class="item"><a href="services.html">E-waste Management</a></li>
+						<li class="item"><a href="services.html">Resource Management</a></li>
+						<li class="item"><a href="services.html">Digital Marketing</a></li>
+						<li class="item"><a href="services.html">App Development</a></li>
+						<li class="item"><a href="services.html">Software Development</a></li>
+						<li class="item"><a href="services.html">ERP & BI Solutions</a></li>
+						<li class="item"><a href="services.html">HR Solutions</a></li>
+					</ul>
+				</li>
 											<li> <a href="contact.html"><span>Contact</span></a> </li>
 											<!-- <li> <a target="_blank" href="https://1.envato.market/9ZxXY"><span><span style="color:#24ac24;">Buy now</span></span></a> </li> -->
 										</ul>
